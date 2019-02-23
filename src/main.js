@@ -20,6 +20,7 @@ import { setStore, getStore, removeStore } from '@/libs/storage'
 import util from '@/libs/util';
 import hasPermission from '@/libs/hasPermission';
 import '@babel/polyfill'
+import '@/mock'
 
 Vue.config.productionTip = false
 Vue.use(VueI18n);
